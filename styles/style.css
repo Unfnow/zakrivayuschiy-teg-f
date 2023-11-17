@@ -18,3 +18,11 @@
   min-inline-size: 320px;
   min-block-size: 100dvb;
 }
+
+.header {
+  font-family: 'PressStart2P-Regular';
+}
+
+.button {
+  font-family: 'PressStart2P-Regular';
+}

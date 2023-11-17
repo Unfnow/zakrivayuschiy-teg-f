@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="152" height="31" fill="none" viewBox="0 0 152 31">
+  <path stroke="#000" stroke-width="2" d="M35 1h116v29H35z"/>
+  <path fill="#000" d="M34 0h118v31H34z"/>
+  <path fill="#fff" d="M66.75 21.25V9h3.5v10.5h7v1.75h-10.5Zm14 0V19.5h3.5v-8.75h-3.5V9h10.5v1.75h-3.5v8.75h3.5v1.75h-10.5Zm12.25 0V9h3.5v5.25h1.75V12.5H100v-1.75h1.75V9h3.5v1.75h-1.75v1.75h-1.75v1.75H100V16h1.75v1.75h1.75v1.75h1.75v1.75H100V19.5h-1.75v-1.75H96.5v3.5H93Zm14 0V9h12.25v1.75h-8.75v3.5h7V16h-7v3.5h8.75v1.75H107Z"/>
+  <path fill="#000" d="M6 4H3v3h3V4Zm3 0H6v3h3V4ZM3 7H0v3h3V7Zm0 3H0v3h3v-3Zm0 3H0v3h3v-3Zm9-9H9v3h3V4ZM6 16H3v3h3v-3Zm3 3H6v3h3v-3Zm3 3H9v3h3v-3Zm9-18h3v3h-3V4Zm-3 0h3v3h-3V4Zm6 3h3v3h-3V7Zm0 3h3v3h-3v-3Zm0 3h3v3h-3v-3Zm-9-9h3v3h-3V4Zm6 12h3v3h-3v-3Zm-3 3h3v3h-3v-3Zm-3 3h3v3h-3v-3Zm0-15h-3v3h3V7Zm0 18h-3v3h3v-3Z"/>
+</svg>
