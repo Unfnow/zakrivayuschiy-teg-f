@@ -4,3 +4,27 @@
 ✦ theme-light — класс светлой темы
 ✦ не забудьте описать стили для изменения темы через медизапрос пользовательских предпочтений
 */
+
+.theme-dark {
+    --background-theme: #00CC14;
+    --accent-theme: #00CC14;
+    --card-background:#000;
+    --font-weight: 465;
+    --font-weight-accent: 785;
+    --background-img: url(../svg/background.svg); /*скачать нормальный бэк и сделать градиент*/
+    --gradient-background: #000;
+    --gradient-start: #007f0c;
+    --gradient-end:#004306;
+}
+
+.theme-light {
+    --background-theme: #fff;
+    --accent-theme: #000;
+    --card-background:#fff;
+    --font-weight: 400;
+    --font-weight-accent: 700;
+    --background-img: url(../svg/background_light.svg); /*скачать нормальный бэк и сделать градиент*/
+    --gradient-background: #d3d3d3;
+    --gradient-start: #e7e7e7;
+    --gradient-end:#1a1a1a;
+}

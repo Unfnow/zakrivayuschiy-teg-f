@@ -1,5 +1,15 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
 :root {
-    --min--var-font-weight: 400;
-    --max--var-font-weight: 465;
+    --main-font: Inter-Variable;
+    --accent-font: PressStart2P-Regular;
+    --svg-fill: transparent;
+    --background-theme: #00CC14;
+    --accent-theme: #00CC14;
+    --card-background:#000;
+    --font-weight: 465;
+    --font-weight-accent: 785;
+    --background-img: url(../svg/background.svg);
+    --gradient-background: #000;
+    --gradient-start: #007f0c;
+    --gradient-end:#004306;
 }

@@ -16,6 +16,6 @@
       format('woff2 supports variations'),
       url(./Inter-Variable.woff2) format('woff2-variations');
     font-display: swap;
-    font-weight: var(--min--var-font-weight) var(--max--var-font-weight);
+    font-weight: 400 785;
     /*font-stretch: [минимальное значение]% [максимальное значение]%;*/
   }
