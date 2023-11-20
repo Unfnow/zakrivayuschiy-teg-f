@@ -90,18 +90,34 @@ h1 {
   opacity: 0.6;
 }
 
+.theme-menu__button::after {
+  content: '';
+  display: block;
+  outline: 1px solid var(--accent-theme);
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.3s ease;
+}
+
+.theme-menu__button:focus-visible::after {
+  transform: scaleX(1);
+}
+
 .theme-menu__button:focus {
   outline: 0;
+  opacity: 0.6;
 }
 
 .theme-menu__button:disabled {
   opacity: 0.6;
+  pointer-events: none;
 }
 
 .theme-menu__button:disabled::before {
   content: "▶";
   position: absolute;
   margin-inline-start: -20px;
+  animation: arrow ease-in-out infinite 0.5s;
 }
 
 main {
@@ -153,13 +169,13 @@ h2 {
   top: 25px;
   right: 25px;
     text-shadow:
-    -1px 0 var(--background-theme), 
-     0 1px var(--background-theme), 
-    1px 0 var(--background-theme), 
-    0 -1px var(--background-theme);
-@supports((text-stroke: 1px var(--background-theme);) or (-webkit-text-stroke: 1px var(--background-theme);)) {
+    -1px 0 var(--card-background), 
+     0 1px var(--card-background), 
+    1px 0 var(--card-background), 
+    0 -1px var(--card-background);
+@supports((text-stroke: 1px var(--card-background);) or (-webkit-text-stroke: 1px var(--card-background);)) {
     p {
-        -webkit-text-stroke: 1px var(--background-theme);
+        -webkit-text-stroke: 1px var(--card-background);
         text-shadow: none;
     }
 }
@@ -204,7 +220,8 @@ h2 {
 }
 
 .card__like-button {
-  border: 2px solid var(--themes-main-color, #000);
+  border: 2px solid var(--accent-theme);
+  background-color: inherit;
   width: 130px;
   height: 38px;
   padding: 9px 17px;
@@ -216,12 +233,18 @@ h2 {
   line-height: 90%;
 }
 
+.card__like-button:hover {
+  outline: none;
+}
+
 .footer {
   display: flex;
   justify-content: center;
 }
 
 .footer-button {
+  border: 2px solid var(--accent-theme);
+  background-color: var(--card-background);
   width: 335px;
   height: 51px;
 }
