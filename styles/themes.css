@@ -9,6 +9,8 @@
     --background-theme: #00CC14;
     --accent-theme: #00CC14;
     --card-background:#000;
+    --button-fill: #000;
+    --button-fill-text: #00CC14;
     --font-weight: 465;
     --font-weight-accent: 785;
     --background-img: url(../svg/background.svg); /*скачать нормальный бэк и сделать градиент*/
@@ -21,6 +23,8 @@
     --background-theme: #fff;
     --accent-theme: #000;
     --card-background:#fff;
+    --button-fill: #000;
+    --button-fill-text: #fff;
     --font-weight: 400;
     --font-weight-accent: 700;
     --background-img: url(../svg/background_light.svg); /*скачать нормальный бэк и сделать градиент*/

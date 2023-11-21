@@ -6,6 +6,8 @@
     --background-theme: #00CC14;
     --accent-theme: #00CC14;
     --card-background:#000;
+    --button-fill: #000;
+    --button-fill-text: #00CC14;
     --font-weight: 465;
     --font-weight-accent: 785;
     --background-img: url(../svg/background.svg);

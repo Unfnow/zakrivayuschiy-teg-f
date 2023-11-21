@@ -122,7 +122,6 @@ h1 {
 
 main {
   margin-block-start: 104px;
-  
 }
 
 .card {
@@ -209,9 +208,9 @@ h2 {
 .like_buttons {
   display: flex;
   justify-content: flex-end;
+  align-items: center;
   width: 100%;
   padding: 0 23px 24px 25px;
-  gap: 6px;
 }
 
 .card__icon-button {
@@ -219,8 +218,18 @@ h2 {
   background-color: var(--card-background);
 }
 
+.card__icon-button:focus {
+  outline: 0;
+}
+
+.card__icon-button:focus-visible .like-icon {
+  transition: ease 0.3s;
+  outline: 2px solid var(--accent-theme) /*Нужен Border*/
+}
+
 .card__like-button {
   border: 2px solid var(--accent-theme);
+  position: relative;
   background-color: inherit;
   width: 130px;
   height: 38px;
@@ -233,20 +242,54 @@ h2 {
   line-height: 90%;
 }
 
-.card__like-button:hover {
-  outline: none;
+.card__like-button:focus {
+  outline: 0;
+  box-shadow: 2px 2px 0 0 var(--accent-theme);
+}
+
+.swift-button::before {
+  position: absolute;
+  top: 0;
+  right: 100%;
+  bottom: 0;
+  left: 0;
+  content: '';
+  background: var(--accent-theme);
+  transition: right 0.5s ease-in-out;
+}
+
+.swift-button:hover::before {
+  right: 0;
+}
+
+.swift-button .button__text {
+  color: var(--button-fill-text);
+  background-color: var(--button-fill);
+  mix-blend-mode: difference;
+}
+
+.swift-button .floppy {
+  color: var(--button-fill-text);
+  background-color: var(--button-fill);
+  mix-blend-mode: difference;
 }
 
 .footer {
   display: flex;
   justify-content: center;
+  margin-block-end: 105px;
 }
 
 .footer-button {
+  position: relative;
   border: 2px solid var(--accent-theme);
   background-color: var(--card-background);
   width: 335px;
   height: 51px;
+}
+
+.footer-button:focus {
+  outline: 0;
 }
 
 .floppy {
