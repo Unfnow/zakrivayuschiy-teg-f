@@ -30,3 +30,33 @@
     --gradient-start: #e7e7e7;
     --gradient-end:#1a1a1a;
 }
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --background-theme: #00CC14;
+        --accent-theme: #00CC14;
+        --card-background:#000;
+        --button-fill: #000;
+        --button-fill-text: #00CC14;
+        --font-weight: 465;
+        --font-weight-accent: 785;
+        --gradient-background: #000;
+        --gradient-start: #007f0c;
+        --gradient-end:#004306;
+    }
+}
+
+@media (prefers-color-scheme: light) {
+    :root {
+        --background-theme: #fff;
+        --accent-theme: #000;
+        --card-background:#fff;
+        --button-fill: #000;
+        --button-fill-text: #fff;
+        --font-weight: 400;
+        --font-weight-accent: 700;
+        --gradient-background: #d3d3d3;
+        --gradient-start: #e7e7e7;
+        --gradient-end:#1a1a1a;
+    }
+}
