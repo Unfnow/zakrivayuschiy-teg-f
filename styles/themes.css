@@ -32,7 +32,7 @@
 }
 
 @media (prefers-color-scheme: dark) {
-    :root {
+    .theme-auto {
         --background-theme: #00CC14;
         --accent-theme: #00CC14;
         --card-background:#000;
@@ -47,7 +47,7 @@
 }
 
 @media (prefers-color-scheme: light) {
-    :root {
+    .theme-auto {
         --background-theme: #fff;
         --accent-theme: #000;
         --card-background:#fff;
