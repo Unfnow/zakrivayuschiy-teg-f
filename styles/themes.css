@@ -16,6 +16,9 @@
     --gradient-background: #000;
     --gradient-start: #007f0c;
     --gradient-end:#004306;
+    --gradient-grid: repeating-linear-gradient(to right, transparent,  transparent 2px, var(--gradient-background) 2px, var(--gradient-background) 4px),
+    repeating-linear-gradient(transparent,  transparent 2px, var(--gradient-background) 2px, var(--gradient-background) 4px),
+    linear-gradient(var(--gradient-start), var(--gradient-end));
 }
 
 .theme-light {
@@ -29,6 +32,9 @@
     --gradient-background: #d3d3d3;
     --gradient-start: #e7e7e7;
     --gradient-end:#1a1a1a;
+    --gradient-grid: repeating-linear-gradient(to right, transparent,  transparent 2px, var(--gradient-background) 2px, var(--gradient-background) 4px),
+    repeating-linear-gradient(transparent,  transparent 2px, var(--gradient-background) 2px, var(--gradient-background) 4px),
+    linear-gradient(var(--gradient-start) 0.01%, var(--gradient-end));
 }
 
 @media (prefers-color-scheme: dark) {
@@ -43,8 +49,11 @@
         --gradient-background: #000;
         --gradient-start: #007f0c;
         --gradient-end:#004306;
-    }
+        --gradient-grid: repeating-linear-gradient(to right, transparent,  transparent 2px, var(--gradient-background) 2px, var(--gradient-background) 4px),
+        repeating-linear-gradient(transparent,  transparent 2px, var(--gradient-background) 2px, var(--gradient-background) 4px),
+        linear-gradient(var(--gradient-start), var(--gradient-end));
 }
+    }
 
 @media (prefers-color-scheme: light) {
     .theme-auto {
@@ -58,5 +67,8 @@
         --gradient-background: #d3d3d3;
         --gradient-start: #e7e7e7;
         --gradient-end:#1a1a1a;
+        --gradient-grid: repeating-linear-gradient(to right, transparent,  transparent 2px, var(--gradient-background) 2px, var(--gradient-background) 4px),
+        repeating-linear-gradient(transparent,  transparent 2px, var(--gradient-background) 2px, var(--gradient-background) 4px),
+        linear-gradient(var(--gradient-start) 0.01%,var(--gradient-end));
     }
 }

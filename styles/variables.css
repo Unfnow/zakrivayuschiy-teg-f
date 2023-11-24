@@ -14,4 +14,8 @@
     --gradient-start: #007f0c;
     --gradient-end:#004306;
     --heart-fill: red;
+    --background-gradient: 
+    repeating-linear-gradient(to right, transparent,  transparent 2px, var(--gradient-background) 2px, var(--gradient-background) 4px),
+    repeating-linear-gradient(transparent,  transparent 2px, var(--gradient-background) 2px, var(--gradient-background) 4px),
+    linear-gradient(var(--gradient-start), var(--gradient-end));
 }
