@@ -19,7 +19,7 @@
   flex-direction:column;
   min-inline-size: 320px;
   min-block-size: 100dvb;
-  font-family: var(--accent-font), serif ;
+  font-family: var(--accent-font), fantasy ;
   color: var(--accent-theme);
   font-variation-settings: 'wght' var(--font-weight);
   background-color: var(--background-theme);
