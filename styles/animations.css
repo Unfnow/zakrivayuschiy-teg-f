@@ -15,37 +15,37 @@
 
 .like-icon:hover .core {
     fill: var(--accent-theme);
-    transition: fill ease 0.3s;
+    transition: fill linear 0.3s;
   }
   
   .like-icon:hover .main-body {
     fill: var(--accent-theme);
-    transition: fill ease 0.3s 0.05s;
+    transition: fill linear 0.3s 0.05s;
   }
   
   .like-icon:active .core {
     fill: var(--heart-fill);
-    transition: fill ease 0.3s;
+    transition: fill linear 0.3s;
   }
   
   .like-icon:active .main-body {
     fill: var(--heart-fill);
-    transition: fill ease 0.3s 0.05s;
+    transition: fill linear 0.3s 0.05s;
   }
   
   .like-icon.is-liked .core {
     fill: var(--heart-fill);
-    transition: fill ease 0.3s 0.06s;
+    transition: fill linear 0.3s 0.06s;
   }
   
   .like-icon.is-liked .main-body {
     fill: var(--heart-fill);
-    transition: fill ease 0.3s 0.06s;
+    transition: fill linear 0.3s 0.06s;
   }
   
   .like-icon.is-liked .contour {
     fill: var(--heart-fill);
-    transition: fill ease 0.3s 0.06s;
+    transition: fill linear 0.3s 0.06s;
   }
   
   .like-icon.is-liked .heart {
