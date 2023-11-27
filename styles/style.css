@@ -82,7 +82,7 @@
   line-height: normal;
   text-transform: uppercase;
   text-align: start;
-  transition: transform 0.3s ease;
+  transition: all 0.3s ease;
 }
 
 .theme-menu__button:hover {
